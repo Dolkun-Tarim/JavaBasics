@@ -1,4 +1,4 @@
-package com.uyghurbook.learnjava;
+package com.uyghurschool.learnjava;
 
 public class IncrementOperatorDemo {
     public static void main(String[] args) {

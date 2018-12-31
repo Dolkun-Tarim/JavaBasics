@@ -1,4 +1,4 @@
-package com.uyghurbook.learnjava;
+package com.uyghurschool.learnjava;
 import org.apache.commons.math3.linear.*;
 public class MathProblem {
     //x + 2y  = 1

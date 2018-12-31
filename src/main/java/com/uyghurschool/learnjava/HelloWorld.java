@@ -1,5 +1,5 @@
 
-package com.uyghurbook.learnjava;
+package com.uyghurschool.learnjava;
 
 public class HelloWorld {
 

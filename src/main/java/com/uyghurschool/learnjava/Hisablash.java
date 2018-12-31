@@ -1,4 +1,4 @@
-package com.uyghurbook.learnjava;
+package com.uyghurschool.learnjava;
 
 public class Hisablash {
     public static void main(String[] args)
