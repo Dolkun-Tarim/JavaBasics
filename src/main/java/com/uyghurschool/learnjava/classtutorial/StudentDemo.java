@@ -5,20 +5,20 @@ import java.util.List;
 
 public class StudentDemo {
     public static void main(String[] args) {
-        List<Student> students=new ArrayList<Student>();
-        students.add(new Student("Alim","Ehet","","Computer 2000",
+        List<StudentObject> studentObjects =new ArrayList<StudentObject>();
+        studentObjects.add(new StudentObject("Alim","Ehet","","Computer 2000",
                 "Software Engineering","male"));
-        students.add(new Student("Dolkun","Tarim","T",
+        studentObjects.add(new StudentObject("Dolkun","Tarim","T",
                 "Science 1994","Applied Physics","male"));
-        Student student=new Student();
-        student.setFirstName("Maria");
-        student.setLastName("Smith");
-        student.setMiddleInitial("A");
-        student.setClassName("English Literature");
-        student.setGender("female");
-        student.setMajor("English");
-        students.add(student);
-        for(Student s: students)
+        StudentObject studentObject =new StudentObject();
+        studentObject.setFirstName("Maria");
+        studentObject.setLastName("Smith");
+        studentObject.setMiddleInitial("A");
+        studentObject.setClassName("English Literature");
+        studentObject.setGender("female");
+        studentObject.setMajor("English");
+        studentObjects.add(studentObject);
+        for(StudentObject s: studentObjects)
         {
             System.out.println(s.toString());
         }

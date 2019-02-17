@@ -1,26 +1,32 @@
 package com.uyghurschool.learnjava.classtutorial;
 
-public class Student {
-
+public class StudentObject {
+    /*
+    @Param firstName - student first name
+    @Param lastName - student last name
+    @Param middleInitial - student middle Initial
+    @Param className - student class name
+    @Param major - student major
+    @Param gender - student gender
+     */
     private String firstName;
     private String lastName;
     private String middleInitial;
     private String className;
     private String major;
     private String gender;
-    //getter setter constructor
-    public Student() {
+
+    //constructor
+    //default constructor
+    public StudentObject() {
     }
 
-    public Student(String firstName, String lastName, String className, String major, String gender) {
+    public StudentObject(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.className = className;
-        this.major = major;
-        this.gender = gender;
     }
 
-    public Student(String firstName, String lastName, String middleInitial, String className, String major, String gender) {
+    public StudentObject(String firstName, String lastName, String middleInitial, String className, String major, String gender) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.middleInitial = middleInitial;
@@ -79,7 +85,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "StudentObject{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", middleInitial='" + middleInitial + '\'' +
