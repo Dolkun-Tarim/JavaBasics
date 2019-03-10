@@ -2,7 +2,8 @@ package com.uyghurschool.learnjava.classtutorial;
 
 public class InnerClassDemo {
     public static void main(String[] args) {
-        InnerClassB.multiplicationTable(9); //calling static method with static class
+        //calling static method with static class
+        InnerClassB.multiplicationTable(9);
         InnerClassDemo innerClassDemo=new InnerClassDemo();
         InnerClassDemo.InnerClassA classA=innerClassDemo.new InnerClassA();
         classA.addTwoNumbers(10,20);
