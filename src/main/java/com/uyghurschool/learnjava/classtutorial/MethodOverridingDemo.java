@@ -6,6 +6,8 @@ public class MethodOverridingDemo {
         ClassA classA=new ClassA();
         classA.printMessage();
         System.out.println(classA.calc(10,5));
+
+        //use Class B
         System.out.println("----------------------------------");
         ClassA myClass=new ClassB();
         myClass.printMessage();
@@ -13,3 +15,4 @@ public class MethodOverridingDemo {
 
     }
 }
+
