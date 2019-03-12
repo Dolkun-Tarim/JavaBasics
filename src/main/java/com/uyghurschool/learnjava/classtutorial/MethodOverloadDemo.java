@@ -2,7 +2,7 @@ package com.uyghurschool.learnjava.classtutorial;
 
 public class MethodOverloadDemo {
     public static void main(String[] args) {
-        MethodOverloadDemo demo=new MethodOverloadDemo();
+        MethodOverloadDemo demo=new MethodOverloadDemo(); //class instantiation
         demo.addNumbers(5,6);
         demo.addNumbers(new int[]{1,4,6,10});
         demo.addNumbers("150","250");
