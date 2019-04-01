@@ -8,6 +8,7 @@ public class LoginMultiuser {
         List<User> users=new ArrayList<User>();
         users.add(new User("admin","MaharaDemo"));
         users.add(new User("student","MaharaDemo"));
+        users.add(new User("learner","MaharaDemo"));
         for(User user:users) {
             FunctionLibrary functionLibrary = new FunctionLibrary();
             functionLibrary.openBrowser("https://demo.mahara.org");
