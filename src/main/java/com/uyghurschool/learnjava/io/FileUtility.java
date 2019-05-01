@@ -42,4 +42,27 @@ public class FileUtility {
             e.printStackTrace();
         }
     }
+
+    public String readTextFile(String folderName, String fileName)
+    {
+        String workingDir=System.getProperty("user.dir");
+        StringBuilder fileContent=new StringBuilder();
+        File file=new File(workingDir+File.separator+folderName+File.separator+fileName);
+        System.out.println(file);
+        try {
+            FileReader fileReader = new FileReader(file);
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
+            String sCurrentLine="";
+            while ((sCurrentLine = bufferedReader.readLine()) != null) {
+                fileContent.append(sCurrentLine);
+                fileContent.append("\n");
+            }
+        }
+        catch (IOException ex)
+        {
+            System.out.println("Cannot read the text file");
+            ex.printStackTrace();
+        }
+        return fileContent.toString();
+    }
 }

@@ -1,0 +1,2 @@
+This is a java programming course
+Learning Java is fun
