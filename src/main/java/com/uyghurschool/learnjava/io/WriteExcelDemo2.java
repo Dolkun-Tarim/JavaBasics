@@ -11,6 +11,7 @@ public class WriteExcelDemo2 {
         testCases.put("3",new String[]{"002","Logout","Passed","QA2"});
         testCases.put("4",new String[]{"003","Clinic","Failed","QA1"});
         testCases.put("5",new String[]{"004","Product","Passed","QA2"});
-        ExcelUtilityAdvanced.writeToExcelMultipleCells("doc\\testcases.xlsx","sheet1",testCases);
+        testCases.put("6",new String[]{"005","UyghurSchool","Passed","QA1"});
+        ExcelUtilityAdvanced.writeToExcelMultipleCells("doc\\school.xlsx","sheet1",testCases);
     }
 }
