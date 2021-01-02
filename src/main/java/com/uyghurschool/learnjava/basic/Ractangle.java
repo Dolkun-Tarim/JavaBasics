@@ -1,4 +1,4 @@
-package com.uyghurschool.learnjava;
+package com.uyghurschool.learnjava.basic;
 
 public class Ractangle {
     public static void main(String[] args)

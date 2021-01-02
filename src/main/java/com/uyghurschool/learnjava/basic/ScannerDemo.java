@@ -1,4 +1,4 @@
-package com.uyghurschool.learnjava;
+package com.uyghurschool.learnjava.basic;
 
 import java.util.Scanner;
 

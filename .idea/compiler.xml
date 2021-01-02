@@ -7,8 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="uyghur-school-java" />
-        <module name="uyghurschooljava" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="uyghur-school-java" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
